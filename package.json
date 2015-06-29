@@ -1,0 +1,17 @@
+{
+  "name": "thy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "thy.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "es6-weak-map": "^1.0.2"
+  }
+}
