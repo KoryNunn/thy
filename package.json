@@ -1,17 +1,28 @@
 {
   "name": "thy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Allows for instance-based data storage of thy data",
   "main": "thy.js",
   "scripts": {
     "test": "node test"
   },
-  "author": "",
+  "author": "Kory Nunn",
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.0.0"
   },
   "dependencies": {
     "es6-weak-map": "^1.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoryNunn/thy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/thy/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/thy"
 }

@@ -13,6 +13,7 @@ information about factory instances.
 
 # Usage
 
+```javascript
 var thy = require('thy')();
 
 var someObject = {};
@@ -22,3 +23,4 @@ thy(someObject).things = 'stuff';
 
 // Both the key 'things' and it's value are only accessable via this instance of thy,
 // And only if you have access to someObject
+```
